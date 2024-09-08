@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  ErrorDocument 404 /didikala/App/View/404.php
+  ErrorDocument 403 /didikala/App/View/404.php
+  RewriteRule ^$ public/ [L]
+  RewriteRule (.*) public/$1 [L]
+</IfModule>
+
+
+<Files App>
+  Options -Indexes
+</Files>

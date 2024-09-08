@@ -1,0 +1,6 @@
+ RewriteEngine on
+  ErrorDocument 404 /didikala/App/View/404.php
+  ErrorDocument 403 /didikala/App/View/404.php
+  Options -Indexes
+
+

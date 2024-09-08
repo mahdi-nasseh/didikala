@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Didikala\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mahdi-nasseh",
+            "email": "m.mahdi.n.s.h@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^11.21"
+    }
+}
